@@ -19,7 +19,7 @@ session_start();
         <nav class="navbar">
             <div class="navbar__container">
                 <a href="index.php" class="navbar__logo">
-                    <img src="pictures/Olllogo.gif" alt="KSDK Logo" class="navbar__logo-image" href="index.php">
+                    <img src="images/Olllogo.gif" alt="OllesAB Logo" class="navbar__logo-image" href="index.php">
                 </a>
                 <div class="navbar__toggle" id="mobile-menu">
                     <span class="bar"></span>
@@ -27,8 +27,9 @@ session_start();
                     <span class="bar"></span>
                 </div>
                 <div class="navbar__menu">
-                    <a href="index.php" class="navbar__link active">Hem</a>
-                    <a href="workers.php" class="navbar__link">Våra kollegor</a>
+                    <a href="OllesAB/index.php" class="navbar__link active">Hem</a>
+                    <a href="OllesAB/contact.php" class="navbar__link">Våra kollegor</a>
+                    <a href="about.php" class="navbar__link">Om oss</a>
                 </div>
             </div>
         </nav>
@@ -49,7 +50,7 @@ session_start();
                     <h2 class="section-title">Om oss</h2>
                     <div class="news-grid">
                         <article class="news-card">
-                            <img src="pictures/frontbild.png" alt="Vad gör vi?" class="news-card__image">
+                            <img src="images/frontbild.png" alt="Vad gör vi?" class="news-card__image">
                             <div class="news-card__content">
                                 <h3>Vad gör vi?</h3>
                                 <p>Vi säljer, servar och tillverkar slutväxlar, planetväxlar till över 800 modeller i minigrävare och grävmaskiner i viktklasser från 0,8 till 45 ton.
@@ -88,7 +89,7 @@ Har du specifika applikationer som behöver en planetväxel eller en slutväxel 
                 </div>
             </aside>
         </div>
-        
+
         <?php include 'includes/footer.php'; ?>
 
         <script>
