@@ -16,23 +16,7 @@ session_start();
 
      <body>
         <!-- Navbar Section -->
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="index.php" class="navbar__logo">
-                    <img src="images/Olllogo.gif" alt="OllesAB Logo" class="navbar__logo-image" href="index.php">
-                </a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <div class="navbar__menu">
-                    <a href="index.php" class="navbar__link active">Hem</a>
-                    <a href="contact.php" class="navbar__link">Våra kollegor</a>
-                    <a href="about.php" class="navbar__link">Om oss</a>
-                </div>
-            </div>
-        </nav>
+        <?php include 'includes/navbar.php'; ?>
         <!-- Hero Section -->
         <header class="hero">
             <div class="hero__content">
