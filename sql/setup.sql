@@ -19,6 +19,6 @@ CREATE TABLE IF NOT EXISTS members (
 
 -- Skapa en testanvändare med lösenord "test123"
 INSERT INTO users (username, password, email) VALUES 
-('admin', '$2y$10$zCEqYPQ1cCvzRuQrsIRXBukloj51AYWfMgtlRhpUd508r.8lCy.Xu', 'admin@ksdk.se')
+('admin', '$2y$10$zCEqYPQ1cCvzRuQrsIRXBukloj51AYWfMgtlRhpUd508r.8lCy.Xu', 'info@ollesab.se')
 ON DUPLICATE KEY UPDATE 
     password = '$2y$10$zCEqYPQ1cCvzRuQrsIRXBukloj51AYWfMgtlRhpUd508r.8lCy.Xu';
