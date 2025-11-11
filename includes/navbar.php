@@ -7,7 +7,7 @@ require_once 'auth.php';
 ?>
 <nav class="navbar">
     <div class="navbar__container">
-        <a href="index.php" class="navbar__logo"><img src="images/KSDK-banner.jpg" alt="KSDK Logo" class="navbar__logo-image"></a>
+        <a href="index.php" class="navbar__logo"><img src="images/OllLogo.gif" alt="OllesAB Logo" class="navbar__logo-image"></a>
         <div class="navbar__toggle" id="mobile-menu">
             <span class="bar"></span>
             <span class="bar"></span>
