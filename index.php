@@ -50,7 +50,7 @@ session_start();
                     <h2 class="section-title">Om oss</h2>
                     <div class="news-grid">
                         <article class="news-card">
-                            <img src="images/frontbild.png" alt="Vad gör vi?" class="news-card__image">
+                            <img src="images/frontbild.png" alt="OllesAB bild" class="news-card__image">
                             <div class="news-card__content">
                                 <h3>Vad gör vi?</h3>
                                 <p>Vi säljer, servar och tillverkar slutväxlar, planetväxlar till över 800 modeller i minigrävare och grävmaskiner i viktklasser från 0,8 till 45 ton.
@@ -84,7 +84,7 @@ Har du specifika applikationer som behöver en planetväxel eller en slutväxel 
                 <div class="sidebar__widget onlyfans-widget">
                     <h3>Följ oss på Onlyfans</h3>
                     <div class="fb-page-preview">
-                        <!-- Facebook Page Plugin eller egen implementation -->
+                        <!-- Onlyfans Page Plugin eller egen implementation -->
                     </div>
                 </div>
             </aside>
