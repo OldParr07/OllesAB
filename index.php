@@ -27,8 +27,8 @@ session_start();
                     <span class="bar"></span>
                 </div>
                 <div class="navbar__menu">
-                    <a href="OllesAB/index.php" class="navbar__link active">Hem</a>
-                    <a href="OllesAB/contact.php" class="navbar__link">Våra kollegor</a>
+                    <a href="index.php" class="navbar__link active">Hem</a>
+                    <a href="contact.php" class="navbar__link">Våra kollegor</a>
                     <a href="about.php" class="navbar__link">Om oss</a>
                 </div>
             </div>
